@@ -1,0 +1,5 @@
+input1=input("Enter sentence: \n")
+a=input1.split()
+#a=input1.replace(".","")
+word=input("Word to find density: \n")
+print(word,a.count(word)/len(a))
